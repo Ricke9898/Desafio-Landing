@@ -1,0 +1,84 @@
+*{
+    font-family: inter;
+    color: black;
+    margin: 0px;
+}
+
+#texto-introducao{
+    color: #FFFFFF;
+    font-weight: 100px;
+    margin-left: 40px;
+    padding: 30px;
+}
+
+#texto-arquitetura{
+    color: #FFFFFF;
+    margin-left: 70px;
+    margin-bottom: 20px;
+}
+#introducao{
+    padding-top: 50px;
+    background: #303030;
+    padding-bottom: 50px;
+}
+#estatistica{
+    background: #F9F9F9;
+    padding: 50px;
+    margin-left: 140px;
+    text-align: justify;
+    display:grid;
+    grid-auto-flow:column;
+    columns: auto;
+}
+
+#arquiteto{
+    margin: 200px 0px 20px 0px;  
+    text-align: center;  
+}
+#texto-imagem{
+    text-align: center;
+}
+#imagem{
+    display: grid;
+    grid-auto-flow: column;
+    columns: auto;
+}
+#edit-img{
+    text-align: center;
+    width: 400px;
+    margin: 70px;
+}
+
+#titulo-formulario{
+    padding: 30px;
+    text-align: center;
+    background: #303030;
+}
+#servicos{
+    margin: 30px 0px 10px 0px;
+    color: #FFFFFF;
+}
+input{
+    padding-left: 5px;
+    margin-left: 10px;
+    border: 0px;
+    margin: 10px;
+    width: 260px;
+    height: 35px;
+    border-radius: 10px;
+}
+button{
+    border: 0px;
+    background-color: #C07212;
+    color: #FFFFFF;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin: 30px 0px 0px 0px;
+    font-weight: bolder;
+    cursor: pointer;
+}
+button:hover{
+    color: aqua;
+    box-shadow: 3px 1px;
+}
